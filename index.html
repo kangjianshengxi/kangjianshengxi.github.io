@@ -2,7 +2,7 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Shengxi Studio</title>
+    <title>SHENGXI LIFE TECHNOLOGY</title>
   </head>
 
   <body>
@@ -13,8 +13,6 @@
       }
       body {
         margin: 0;
-        background-color: rgba(0, 0, 0, 0.9);
-        color: white;
         width: 100%;
         height: 100%;
       }
@@ -24,111 +22,144 @@
         align-items: center;
         justify-content: flex-start;
         width: 100%;
-        height: 100%;
       }
       .title {
-        font-size: 21px;
-        margin-top: 10px;
-        margin-bottom: 10px;
-        font-weight: bold;
+        font-size: 25px;
+        margin-top: 110px;
+        margin-bottom: 45px;
+        font-weight: 700;
+        color: #000000;
       }
-      .banner {
-        width: 100%;
-        height: 50%;
-        min-width: 1080px;
-        min-height: 608px;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        position: relative;
-      }
-      .banner-img {
-        position: absolute;
-        top: 0;
-        bottom: 0;
-        left: 0;
-        right: 0;
-        z-index: -1;
-      }
-      .banner-text-container {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        text-shadow: 2px 2px rbga(0, 0, 0, 0.9);
-        margin-top: -20px;
-      }
-      .banner-text-title {
-        font-size: 56px;
-        font-weight: bold;
-      }
-      .banner-text-desc {
-        font-size: 24px;
-        margin-top: 15px;
-      }
-      .product-title {
-        font-size: 39px;
-        color: rgb(73, 101, 135);
-        font-weight: bold;
+      .card {
+        width: 1000px;
+        height: 543px;
+        border-radius: 50px;
         margin-top: 40px;
-      }
-      .product-container {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-around;
-      }
-      .product-item {
+        background-size: contain;
         display: flex;
         flex-direction: column;
-        align-items: center;
-        max-width: 30%;
+        justify-content: center;
+        align-items: flex-start;
       }
-      .product-item-title {
-        font-size: 22px;
+      .card1 {
+        background-image: url("assets/sleep-bg.png");
+        background-repeat: no-repeat;
+        background-color: #070808;
+        background-position: left;
       }
-      .product-item-desc {
-        font-size: 16px;
-        color: rgb(164, 164, 164);
+      .card2 {
+        background-image: url("assets/latte-bg.png");
+        background-repeat: no-repeat;
+        background-color: #000000;
+        background-position: right;
+      }
+      .card3 {
+        background-image: url("assets/tomato-bg.png");
+        background-repeat: no-repeat;
+        background-color: #EDDACC;
+        background-position: left;
+      }
+      .content {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+      }
+      .content1 {
+        margin-left: 50%;
+      }
+      .content2 {
+        margin-left: 10%;
+      }
+      .content3 {
+        margin-left: 50%;
+      }
+      .app-icon {
+        height: 71px;
+        width: 71px;
+        margin-bottom: 20px;
+      }
+      .app-name {
+        height: 36px;
+        margin-bottom: 11px;
+      }
+      .app-desc {
+        font-size: 15px;
+        font-weight: 700;
+        color: #000000;
+      }
+      .app-desc-light {
+        color: #FFFFFF;
+      }
+      .app-desc-brown {
+        color: #4E443E;
+      }
+      .detail-btn {
+        border-radius: 50px;
+        width: 109px;
+        height: 44px;
+        margin-top: 40px;
+        font-size: 10px;
+        text-align: center;
+        text-decoration: none;
+      }
+      .detail-btn1 {
+        border: 2px solid rgba(255, 255, 255, 0.1);
+        box-sizing: border-box;
+        color: #FFFFFF;
+        line-height: 40px;
+      }
+      .detail-btn2 {
+        background: #FFFFFF;
+        border: 2px solid #FFFFFF;
+        box-sizing: border-box;
+        color: #000000;
+        line-height: 40px;
+      }
+      .detail-btn3 {
+        background: #4E443E;
+        color: #FFFFFF;
+        line-height: 44px;
       }
       .footer {
-        margin-top: 200px;
+        margin-top: 167px;
+        margin-bottom: 148px;
         display: flex;
         flex-direction: column;
         align-items: center;
       }
-      .footer-name {
-        font-size: 16px;
-        font-weight: bold;
-      }
       .footer-copyright {
-        font-size: 14px;
+        font-size: 7px;
         color: rgb(169, 169, 169);
       }
     </style>
 
     <div id="main">
-      <div class="title">SHENGXI STUDIO</div>
-      <div class="banner">
-        <img class="banner-img" src="assets/banner.png" width="100%" height="100%"/>
-        <div class="banner-text-container">
-          <div class="banner-text-title">ADVOCATE OF HEALTHY LIFESTYLE</div>
-          <div class="banner-text-desc">Technology is for a better life</div>
+      <div class="title">SHENGXI LIFE TECHNOLOGY</div>
+      <div class="card card1">
+        <div class="content content1">
+          <img class="app-name" src="assets/sleep-name.png" />
+          <div class="app-desc app-desc-light">基于Apple Watch改善睡眠的智能睡眠记录App</div>
+          <div class="detail-btn detail-btn1">coming soon</div>
         </div>
       </div>
-      <div class="product-title">OUR PRODUCTS</div>
-      <div class="product-container">
-        <div class="product-item">
-          <p class="product-item-title">Latte Widget</p>
-          <p class="product-item-desc">Latte Widget is a exquisite photo frame, which was Included by App Store editor as a weekly collection.</p>
+      <div class="card card2">
+        <div class="content content2">
+          <img class="app-icon" src="assets/latte-icon.png" />
+          <img class="app-name" src="assets/latte-name.png" />
+          <div class="app-desc app-desc-light">模拟真实的拟物相框小组件App</div>
+          <a class="detail-btn detail-btn2" target="_blank" href="https://apps.apple.com/cn/app/%E6%8B%BF%E9%93%81%E7%9B%B8%E6%A1%86-lattewidget-%E5%A4%8D%E5%8F%A4%E6%A1%8C%E9%9D%A2%E5%B0%8F%E7%BB%84%E4%BB%B6/id1531884517">learn more</a>
         </div>
-        <div class="product-item">
-          <p class="product-item-title">Mine Focus</p>
-          <p class="product-item-desc">My Focus is a useful tool for students and office workers to keep attention and improve efficiency.</p>
+      </div>
+      <div class="card card3">
+        <div class="content content3">
+          <img class="app-icon" src="assets/tomato-icon.png" />
+          <img class="app-name" src="assets/tomato-name.png" />
+          <div class="app-desc app-desc-brown">极简、治愈的重力感应番茄钟App</div>
+          <a class="detail-btn detail-btn3" target="_blank" href="https://apps.apple.com/cn/app/%E6%88%91%E7%9A%84%E7%95%AA%E8%8C%84-%E6%9E%81%E7%AE%80-%E6%B2%BB%E6%84%88%E7%9A%84%E7%95%AA%E8%8C%84%E9%92%9F/id1528322796">learn more</a>
         </div>
       </div>
       <div class="footer">
-        <div class="footer-name">ShengXi Studio</div>
-        <p class="footer-copyright">Copyright © 2021 ShengXi Studio - All Rights Reserved.</p>
+        <p class="footer-copyright">© 2021, SHENGXI  LIFE technology. All Rights Reserved. 北京康健生息科技有限公司版权所有</p>
       </div>
     </div>
   </body>
